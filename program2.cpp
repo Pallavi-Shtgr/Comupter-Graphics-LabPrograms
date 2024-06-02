@@ -1,6 +1,8 @@
+Basic geometric operations on the 2D object
+Develop a program to demonstrate basic geometric operations on the 2D object
+
 #include <GL/glut.h>
 #include <iostream>
-
 // Global variables
 int width = 800;
 int height = 600;
