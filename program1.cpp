@@ -1,3 +1,6 @@
+Bresenham’s line drawing technique
+Develop a program to draw a line using Bresenham’s line drawing technique
+
 #include <GL/glut.h>
 #include <stdio.h>
 int x1, y1, x2, y2;
