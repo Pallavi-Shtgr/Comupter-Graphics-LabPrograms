@@ -3,7 +3,7 @@ Develop a program to demonstrate basic geometric operations on the 2D object
 
 #include <GL/glut.h>
 #include <iostream>
-// Global variables
+
 int width = 800;
 int height = 600;
 float rectWidth = 100.0f;
@@ -71,7 +71,6 @@ void keyboard(unsigned char key, int x, int y) {
 
     glutPostRedisplay(); // Trigger a redraw
 }
-
 
 // Function to initialize OpenGL
 void initializeOpenGL(int argc, char** argv) {
