@@ -3,7 +3,6 @@ Develop a program to demonstrate basic geometric operations on the 2D object
 
 #include <GL/glut.h>
 #include <iostream>
-
 int width = 800;
 int height = 600;
 float rectWidth = 100.0f;
@@ -12,8 +11,6 @@ float rectPositionX = (width - rectWidth) / 2.0f;
 float rectPositionY = (height - rectHeight) / 2.0f;
 float rotationAngle = 0.0f;
 float scaleFactor = 1.0f;
-
-// Function to draw a rectangle
 void drawRectangle(float x, float y, float width, float height) {
     glBegin(GL_POLYGON);
     glVertex2f(x, y);
@@ -22,8 +19,6 @@ void drawRectangle(float x, float y, float width, float height) {
     glVertex2f(x, y + height);
     glEnd();
 }
-
-// Function to handle display
 void display() {
     glClear(GL_COLOR_BUFFER_BIT);
 
