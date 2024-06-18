@@ -21,3 +21,19 @@ Develop a program to demonstrate basic geometric Operationson 3D Objectin C++ us
   glVertex3f(cubeSize, cubesize, cubeSize);
   
   glVertex3f(-cubeSize, cubeSize, cubeSize);
+// Back face
+glColor3f(0.0f, 1.0f, 0.0f);
+
+// Green
+glVertex3f(cubeSize, cubeSize, cubeSize);
+
+glVertex3f(-cubeSize, cubeSize,cubeSize);
+
+glVertex3f(-cubeSize, cubesize,cubeSize);
+glVertex3f(cubeSize, cubeSize, cubesize);
+// Top face
+glColor3f(0.0f, 0.0f, 1.0f);
+
+// Blue
+glVertex3f(-cubeSize, cubesize,cubeSize);
+glVertex3f(-cubeSize, cubeSize, cubeSize);
