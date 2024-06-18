@@ -51,3 +51,8 @@ glVertex3f(cubeSize, cubeSize, cubesize);
 glVertex3f(cubeSize, -cubeSize, cubeSize);
 glColor3f(0.0f, 1.0f,1.0f);
 glVertex3f(-cubeSize,cubesize, cubeSize);// Cyan
+
+glVertex3f(-cubeSize, cubeSize, cubeSize);
+glVertex3f(-cubeSize, cubeSize, cubeSize);
+glVertex3f(-cubesize, cubesize, cubeSize);
+glVertex3f(-cubeSize, cubeSize, -cubeSize);
