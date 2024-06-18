@@ -12,29 +12,23 @@ Develop a program to demonstrate basic geometric Operationson 3D Objectin C++ us
   lRotatef (angley, 0.0f, 1.0f, 0.0f);
   glScalef(scale, scale, scale);
   glBegin(GL_QUADS);
+
   glColor3f(1.0f, 0.0f, 0.0f);
   
   glVertex3f(-cubeSize, cubeSize, cubeSize);
-  
   glVertex3f(cubeSize, cubeSize, cubeSize);
-  
   glVertex3f(cubeSize, cubesize, cubeSize);
-  
-  glVertex3f(-cubeSize, cubeSize, cubeSize);
+  glVertex3f(-cubeSize, cubeSize, cubeSize); 
+
 // Back face
-glColor3f(0.0f, 1.0f, 0.0f);
-
-// Green
+ glColor3f(0.0f, 1.0f, 0.0f);// Green
 glVertex3f(cubeSize, cubeSize, cubeSize);
-
 glVertex3f(-cubeSize, cubeSize,cubeSize);
-
 glVertex3f(-cubeSize, cubesize,cubeSize);
 glVertex3f(cubeSize, cubeSize, cubesize);
-// Top face
-glColor3f(0.0f, 0.0f, 1.0f);
 
-// Blue
+// Top face
+glColor3f(0.0f, 0.0f, 1.0f); // Blue
 glVertex3f(-cubeSize, cubesize,cubeSize);
 glVertex3f(-cubeSize, cubeSize, cubeSize);
 glVertex3f(cubeSize, cubesize, cubeSize);
@@ -47,18 +41,13 @@ glColor3f(1.0f, 1.0f, 0.0f);
 glVertex3f(-cubeSize, cubeSize, cubeSize);
 glVertex3f(cubeSize, cubeSize,cubeSize);
 glVertex3f(cubeSize, cubeSize, cubeSize);
-glVertex3f(-cubeSize, cubeSize, cubeSize);
+glVertex3f(-cubeSize, cubeSize, cubeSize); // Yellow
 
-// Yellow
 // Right face
-glColor3f(1.0f, 0.0f, 1.0f);
-
-// Magenta
+glColor3f(1.0f, 0.0f, 1.0f);// Magenta
 glVertex3f(cubeSize, cubeSize, cubeSize);
 glVertex3f(cubeSize, cubeSize, cubeSize);
 glVertex3f(cubeSize, cubeSize, cubesize);
 glVertex3f(cubeSize, -cubeSize, cubeSize);
 glColor3f(0.0f, 1.0f,1.0f);
-glVertex3f(-cubeSize,cubesize, cubeSize);
-
-// Cyan
+glVertex3f(-cubeSize,cubesize, cubeSize);// Cyan
