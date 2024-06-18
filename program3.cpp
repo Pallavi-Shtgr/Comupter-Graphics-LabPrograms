@@ -37,3 +37,28 @@ glColor3f(0.0f, 0.0f, 1.0f);
 // Blue
 glVertex3f(-cubeSize, cubesize,cubeSize);
 glVertex3f(-cubeSize, cubeSize, cubeSize);
+glVertex3f(cubeSize, cubesize, cubeSize);
+glVertex3f(cubeSize, cubeSize, cubeSize);
+
+// Bottom face
+glVertex3f(cubeSize, cubesize, cubeSize);
+glVertex3f(cubeSize, cubeSize, cubeSize);
+glColor3f(1.0f, 1.0f, 0.0f);
+glVertex3f(-cubeSize, cubeSize, cubeSize);
+glVertex3f(cubeSize, cubeSize,cubeSize);
+glVertex3f(cubeSize, cubeSize, cubeSize);
+glVertex3f(-cubeSize, cubeSize, cubeSize);
+
+// Yellow
+// Right face
+glColor3f(1.0f, 0.0f, 1.0f);
+
+// Magenta
+glVertex3f(cubeSize, cubeSize, cubeSize);
+glVertex3f(cubeSize, cubeSize, cubeSize);
+glVertex3f(cubeSize, cubeSize, cubesize);
+glVertex3f(cubeSize, -cubeSize, cubeSize);
+glColor3f(0.0f, 1.0f,1.0f);
+glVertex3f(-cubeSize,cubesize, cubeSize);
+
+// Cyan
