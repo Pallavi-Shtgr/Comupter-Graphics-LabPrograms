@@ -69,3 +69,62 @@ glClearColor (0.0f, 0.0f, 0.0f, 1.0f);
 glClearDepth (1.0f);
 glEnable(GL_DEPTH_TEST);
 glDepthFunc(GL_LEQUAL);
+glMatrixMode(GL_PROJECTION);
+
+80 gluPerspective(45.0f, 1.0f, 0.1f, 100.0f);
+
+81
+
+82 glMatrixMode(GL_MODELVIEW);
+
+83 glLoadIdentity();
+
+85 86 void keyboard(unsigned char key, int x, int y) {
+
+87 switch (key) {
+
+88 case 'w':
+
+cubePosy += 0.1f;
+
+89 90 break;
+
+91
+
+92
+
+93
+
+A
+
+case 's':
+
+cubePosy 0.1f;
+
+break;
+
+?
+
+...
+
+case 'a':
+
+94 95
+
+96
+
+cubePosX 0.1f;
+
+I
+
+break;
+
+97 case 'd':
+
+98
+
+99
+
+cubePosX += 0.1f;
+
+break;
