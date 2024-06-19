@@ -91,88 +91,30 @@ break;
 case 'd':
 cubePosX += 0.1f;
 break;
+ 
 case 'q':
-
 cubePosZ += 0.1f;
-
-101
-
 break;
-
-102
-
-103
 
 case 'z':
-
 cubePosZ 0.1f;
-
-164
-
-105
-
 break;
-
-106
 
 case 'r':
-
-107
-
 anglex += 5.0f;
-
-108
-
 break;
-
-109
 
 case 'e':
-
-110
-
 angley += 5.0f;
-
-A
-
-111
-
 break;
-
-112
 
 case '+':
-
-113
-
-114
-
-!
-
-case:
-
-116
-
-117
-
 scale += 0.1f;
-
 break;
 
+case:'-':
 scale = 0.1f;
-
-118
-
 break;
-
-I
-
-119
-
+ 
 default:
-
-120
-
-}
-
 break;
