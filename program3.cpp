@@ -56,3 +56,16 @@ glVertex3f(-cubeSize, cubeSize, cubeSize);
 glVertex3f(-cubeSize, cubeSize, cubeSize);
 glVertex3f(-cubesize, cubesize, cubeSize);
 glVertex3f(-cubeSize, cubeSize, -cubeSize);
+
+glEnd();
+glPopMatrix();
+void display() {
+
+glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+drawCube();
+glutSwapBuffers();
+void init() {
+glClearColor (0.0f, 0.0f, 0.0f, 1.0f);
+glClearDepth (1.0f);
+glEnable(GL_DEPTH_TEST);
+glDepthFunc(GL_LEQUAL);
