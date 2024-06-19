@@ -118,3 +118,31 @@ break;
  
 default:
 break;
+
+glutPostRedisplay();
+
+123
+
+124 int main(int argc, char **argv) {
+
+125 glutInit(&argc, argv);
+
+126 glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB II
+
+GLUT_DEPTH); glutInitWindowSize(500, 500); 127
+
+A128 glutCreateWindow("Geometric Operations on 3D Object");
+
+129 init();
+
+130 glutDisplayFunc(display);
+
+glutKeyboardFunc(keyboard);
+
+?
+
+132 glutMainLoop();
+
+133 return 0;
+
+134}
