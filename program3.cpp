@@ -114,14 +114,12 @@ break;
 
 case:'-':
 scale = 0.1f;
-break;
- 
+break; 
 default:
 break;
 
 glutPostRedisplay();
- 
-int main(int argc, char **argv) {
+ int main(int argc, char **argv) {
 glutInit(&argc, argv);
 glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB II GLUT_DEPTH); 
 glutInitWindowSize(500, 500);
