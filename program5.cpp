@@ -53,5 +53,83 @@ glVertex3f(cubeSize, -cubeSize, cubeSize);
 glColor3f(0.0f, 1.0f,1.0f);
 glVertex3f(-cubeSize,cubesize, cubeSize);// Cyan
 
+glVertex3f(-cubeSize, cubeSize, cubeSize);
+glVertex3f(-cubeSize, cubeSize, cubeSize);
+glVertex3f(-cubesize, cubesize, cubeSize);
+glVertex3f(-cubeSize, cubeSize, -cubeSize);
+
+glEnd();
+glPopMatrix();
+void display() {
+
+glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+drawCube();
+glutSwapBuffers();
+void init() {
+glClearColor (0.0f, 0.0f, 0.0f, 1.0f);
+glClearDepth (1.0f);
+glEnable(GL_DEPTH_TEST);
+glDepthFunc(GL_LEQUAL);
+glMatrixMode(GL_PROJECTION);
+
+gluPerspective(45.0f, 1.0f, 0.1f, 100.0f);
+glMatrixMode(GL_MODELVIEW);
+glLoadIdentity();
+void keyboard(unsigned char key, int x, int y) {
+switch (key) {
+case 'w':
+cubePosy += 0.1f;
+break;
+
+case 's':
+cubePosy 0.1f;
+break;
+
+case 'a':
+cubePosX 0.1f;
+break;
+
+case 'd':
+cubePosX += 0.1f;
+break;
+ 
+case 'q':
+cubePosZ += 0.1f;
+break;
+
+case 'z':
+cubePosZ 0.1f;
+break;
+
+case 'r':
+anglex += 5.0f;
+break;
+
+case 'e':
+angley += 5.0f;
+break;
+
+case '+':
+scale += 0.1f;
+break;
+
+case:'-':
+scale = 0.1f;
+break; 
+default:
+break;
+
+glutPostRedisplay();
+ int main(int argc, char **argv) {
+glutInit(&argc, argv);
+glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB II GLUT_DEPTH); 
+glutInitWindowSize(500, 500);
+glutCreateWindow("Geometric Operations on 3D Object");
+init();
+glutDisplayFunc(display);
+glutKeyboardFunc(keyboard);
+glutMainLoop();
+return 0;
+}
 
 
