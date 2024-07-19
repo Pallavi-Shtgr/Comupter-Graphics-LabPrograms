@@ -1,3 +1,6 @@
+Write a Program to read a digital image. Split and display image into 4 quadrants, up, 
+down, right and left
+
 import cv2 
 img = cv2.imread('images.jpg') 
 # cv2.imread() -> takes an image as an input 
