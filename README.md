@@ -17,3 +17,7 @@ Output for program 4:
 Output for program 5:
 ![Screenshot 2024-07-11 070919](https://github.com/Pallavi-Shtgr/Comupter-Graphics-Lap/assets/126679884/7ee73e9c-f391-41b8-9a82-3efee7c2f82b)
 
+Output for program 6:
+![Screenshot 2024-07-19 235105](https://github.com/user-attachments/assets/7548a37c-de0d-46b9-b1a0-a8051a1b6470)
+
+
