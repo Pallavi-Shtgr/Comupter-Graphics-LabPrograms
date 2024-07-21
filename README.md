@@ -20,4 +20,11 @@ Output for program 5:
 Output for program 6:
 ![Screenshot 2024-07-19 235105](https://github.com/user-attachments/assets/7548a37c-de0d-46b9-b1a0-a8051a1b6470)
 
+Output for program 7:
+![WhatsApp Image 2024-07-20 at 10 42 09_c2a21c2f](https://github.com/user-attachments/assets/f2c23f8c-194b-4076-bd49-87e21067ef48:
+
+Output for program 8:
+![WhatsApp Image 2024-07-20 at 10 42 14_6272dd78](https://github.com/user-attachments/assets/cd7cff6d-7045-4690-a80a-916b564f7b6e)
+
+
 
